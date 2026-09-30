@@ -1,0 +1,987 @@
+{
+  "sourceDate": "2026-09-30",
+  "timezone": "Europe/Berlin",
+  "recurrence": "weekly-assumption",
+  "rooms": [
+    {
+      "id": "SD0002",
+      "name": "Mac-Pool",
+      "source": null,
+      "sourceFile": "Screenshot_2026-09-30-09-42-47-22_40deb401b9ffe8e1df2f1cc5ba480b12.jpg",
+      "coverageEnd": "18:00",
+      "tentative": true,
+      "events": [
+        {
+          "id": "SD0002-1-08:00",
+          "day": 1,
+          "start": "08:00",
+          "end": "09:30",
+          "title": "3D-Anwendungen_PR",
+          "uncertain": false
+        },
+        {
+          "id": "SD0002-1-10:00",
+          "day": 1,
+          "start": "10:00",
+          "end": "11:30",
+          "title": "3D-Anwendungen_PR",
+          "uncertain": false
+        },
+        {
+          "id": "SD0002-1-16:30",
+          "day": 1,
+          "start": "16:30",
+          "end": "18:00",
+          "title": "MIS-PR",
+          "uncertain": false
+        },
+        {
+          "id": "SD0002-2-10:00",
+          "day": 2,
+          "start": "10:00",
+          "end": "11:30",
+          "title": "MIS-PR",
+          "uncertain": false
+        },
+        {
+          "id": "SD0002-2-16:30",
+          "day": 2,
+          "start": "16:30",
+          "end": "19:30",
+          "title": "Grdl-film-Gestalt_PR",
+          "uncertain": false
+        },
+        {
+          "id": "SD0002-3-12:15",
+          "day": 3,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "UE&UED-PR",
+          "uncertain": false
+        },
+        {
+          "id": "SD0002-3-14:30",
+          "day": 3,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "UE&UED-PR",
+          "uncertain": false
+        },
+        {
+          "id": "SD0002-4-10:00",
+          "day": 4,
+          "start": "10:00",
+          "end": "11:30",
+          "title": "SP&3D-Animation_PR",
+          "uncertain": false
+        },
+        {
+          "id": "SD0002-4-12:15",
+          "day": 4,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "SP&3D-Animation_PR",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "id": "SI0001",
+      "name": "IT-Pool 6",
+      "source": null,
+      "sourceFile": "1000122410.jpg",
+      "coverageEnd": "20:00",
+      "tentative": false,
+      "events": [
+        {
+          "id": "SI0001-1-12:15",
+          "day": 1,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "Datenbanken (Praktikum) · Gr. 2 · TI3",
+          "uncertain": false
+        },
+        {
+          "id": "SI0001-1-14:30",
+          "day": 1,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "Programmierung 1 (I) (Vorlesung) · TI1/BBI1/BAT3",
+          "uncertain": false
+        },
+        {
+          "id": "SI0001-1-16:30",
+          "day": 1,
+          "start": "16:30",
+          "end": "18:00",
+          "title": "Programmierung 1 (I) (Praktikum) · Gr. 2 · BAT3",
+          "uncertain": false
+        },
+        {
+          "id": "SI0001-2-08:00",
+          "day": 2,
+          "start": "08:00",
+          "end": "09:30",
+          "title": "Datenbanken (Praktikum) · Gr. 1 · MI3",
+          "uncertain": false
+        },
+        {
+          "id": "SI0001-2-10:00",
+          "day": 2,
+          "start": "10:00",
+          "end": "11:30",
+          "title": "Datenbanken (Praktikum) · Gr. 2 · MI3",
+          "uncertain": false
+        },
+        {
+          "id": "SI0001-2-12:15",
+          "day": 2,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "Informatik für Maschinenbau (AFE1/MB1A)",
+          "uncertain": false
+        },
+        {
+          "id": "SI0001-3-08:00",
+          "day": 3,
+          "start": "08:00",
+          "end": "09:30",
+          "title": "Systemzeit",
+          "uncertain": false
+        },
+        {
+          "id": "SI0001-3-10:00",
+          "day": 3,
+          "start": "10:00",
+          "end": "11:30",
+          "title": "Datenbanken (Praktikum) · Gr. 1 · TI3/BBI3",
+          "uncertain": false
+        },
+        {
+          "id": "SI0001-3-12:15",
+          "day": 3,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "Programmierung 3 (MI) (Praktikum) · Gr. 1 · MI3",
+          "uncertain": false
+        },
+        {
+          "id": "SI0001-3-14:30",
+          "day": 3,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "Programmierung 1 (I) (Vorlesung) · TI1/BBI1/BAT3",
+          "uncertain": false
+        },
+        {
+          "id": "SI0001-3-16:30",
+          "day": 3,
+          "start": "16:30",
+          "end": "18:00",
+          "title": "Objektorientierte Analyse und Design (Praktikum) · MI",
+          "uncertain": false
+        },
+        {
+          "id": "SI0001-4-10:00",
+          "day": 4,
+          "start": "10:00",
+          "end": "11:30",
+          "title": "Objektorientierte Analyse und Design (Praktikum) · MI",
+          "uncertain": false
+        },
+        {
+          "id": "SI0001-4-12:15",
+          "day": 4,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "Objektorientierte Analyse und Design (Praktikum) · MI",
+          "uncertain": false
+        },
+        {
+          "id": "SI0001-4-14:30",
+          "day": 4,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "Programmierung 1 (I) (Praktikum) · Gr. 1 · MI1",
+          "uncertain": false
+        },
+        {
+          "id": "SI0001-4-16:30",
+          "day": 4,
+          "start": "16:30",
+          "end": "18:00",
+          "title": "Programmierung 1 (I) (Praktikum) · Gr. 2 · BAT3",
+          "uncertain": false
+        },
+        {
+          "id": "SI0001-5-08:00",
+          "day": 5,
+          "start": "08:00",
+          "end": "09:30",
+          "title": "Programmierung 3 (MI) (Praktikum) · Gr. 3 · MI3",
+          "uncertain": false
+        },
+        {
+          "id": "SI0001-5-10:00",
+          "day": 5,
+          "start": "10:00",
+          "end": "11:30",
+          "title": "Programmierung 1 (I) (Praktikum) · Gr. 2 · MI1",
+          "uncertain": false
+        },
+        {
+          "id": "SI0001-5-12:15",
+          "day": 5,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "Programmierung 1 (E/Me) (Praktikum) · E1/ME1",
+          "uncertain": false
+        },
+        {
+          "id": "SI0001-5-14:30",
+          "day": 5,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "Programmierung 1 (E/Me) (Praktikum) · E1/ME1",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "id": "SI0002",
+      "name": "IT-Pool 5",
+      "source": null,
+      "sourceFile": "1000122409.jpg",
+      "coverageEnd": "20:00",
+      "tentative": false,
+      "events": [
+        {
+          "id": "SI0002-1-10:00",
+          "day": 1,
+          "start": "10:00",
+          "end": "11:30",
+          "title": "Informatikanwendungen · BMIN1",
+          "uncertain": false
+        },
+        {
+          "id": "SI0002-1-14:30",
+          "day": 1,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "Programmierung 3 (TI) (Praktikum) · Gr. 2 · TI3",
+          "uncertain": false
+        },
+        {
+          "id": "SI0002-1-16:30",
+          "day": 1,
+          "start": "16:30",
+          "end": "18:00",
+          "title": "Programmierung 1 (I) (Praktikum) · Gr. 1 · TI1/BBI1",
+          "uncertain": false
+        },
+        {
+          "id": "SI0002-2-08:00",
+          "day": 2,
+          "start": "08:00",
+          "end": "09:30",
+          "title": "Modellbildung und Simulation",
+          "uncertain": false
+        },
+        {
+          "id": "SI0002-2-10:00",
+          "day": 2,
+          "start": "10:00",
+          "end": "11:30",
+          "title": "Robotersysteme",
+          "uncertain": false
+        },
+        {
+          "id": "SI0002-2-12:15",
+          "day": 2,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "Informatik für Maschinenbau (AFE1/MB1A)",
+          "uncertain": false
+        },
+        {
+          "id": "SI0002-2-14:30",
+          "day": 2,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "Algorithmen und Datenstrukturen (Praktikum) · MI2",
+          "uncertain": false
+        },
+        {
+          "id": "SI0002-3-08:00",
+          "day": 3,
+          "start": "08:00",
+          "end": "09:30",
+          "title": "Systemzeit",
+          "uncertain": false
+        },
+        {
+          "id": "SI0002-3-10:00",
+          "day": 3,
+          "start": "10:00",
+          "end": "11:30",
+          "title": "Programmierung 3 (TI) (Praktikum) · Gr. 1 · TI3",
+          "uncertain": false
+        },
+        {
+          "id": "SI0002-3-14:30",
+          "day": 3,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "Programmierung 1 (I) (Praktikum) · Gr. 2 · MI1",
+          "uncertain": false
+        },
+        {
+          "id": "SI0002-4-10:00",
+          "day": 4,
+          "start": "10:00",
+          "end": "11:30",
+          "title": "Informatikanwendungen · BMIN1",
+          "uncertain": false
+        },
+        {
+          "id": "SI0002-4-14:30",
+          "day": 4,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "Software Architektur – Konzepte und Anwendungen (Praktikum) · MI",
+          "uncertain": false
+        },
+        {
+          "id": "SI0002-4-16:30",
+          "day": 4,
+          "start": "16:30",
+          "end": "18:00",
+          "title": "Programmierung 1 (I) (Praktikum) · Gr. 1 · TI1/BBI1",
+          "uncertain": false
+        },
+        {
+          "id": "SI0002-5-12:15",
+          "day": 5,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "Programmierung 2 (I) (Praktikum) · MI · Gr. 2",
+          "uncertain": false
+        },
+        {
+          "id": "SI0002-5-14:30",
+          "day": 5,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "Programmierung 2 (I) (Praktikum) · MI · Gr. 1",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "id": "SI0003",
+      "name": "IT-Pool 4",
+      "source": null,
+      "sourceFile": "1000122408.jpg",
+      "coverageEnd": "20:00",
+      "tentative": false,
+      "events": [
+        {
+          "id": "SI0003-2-12:15",
+          "day": 2,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "Informatik für Maschinenbau (AFE1/MB1A)",
+          "uncertain": false
+        },
+        {
+          "id": "SI0003-2-16:30",
+          "day": 2,
+          "start": "16:30",
+          "end": "18:00",
+          "title": "Programmierung 1 (I) (Praktikum) · Gr. 4 · MI1",
+          "uncertain": false
+        },
+        {
+          "id": "SI0003-3-08:00",
+          "day": 3,
+          "start": "08:00",
+          "end": "09:30",
+          "title": "Systemzeit",
+          "uncertain": false
+        },
+        {
+          "id": "SI0003-3-14:30",
+          "day": 3,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "Programmierung 1 (I) (Praktikum) · Gr. 3 · MI1",
+          "uncertain": false
+        },
+        {
+          "id": "SI0003-4-14:30",
+          "day": 4,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "Programmierung 1 (I) (Praktikum) · Gr. 4 · MI1",
+          "uncertain": false
+        },
+        {
+          "id": "SI0003-5-10:00",
+          "day": 5,
+          "start": "10:00",
+          "end": "11:30",
+          "title": "Programmierung 1 (I) (Praktikum) · Gr. 3 · MI1",
+          "uncertain": false
+        },
+        {
+          "id": "SI0003-5-14:30",
+          "day": 5,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "Grundlagen Programmierung und Mikrorechnersysteme",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "id": "SI0024",
+      "name": "PC-Pool",
+      "source": null,
+      "sourceFile": "1000122424.jpg",
+      "coverageEnd": "19:30",
+      "tentative": false,
+      "events": [
+        {
+          "id": "SI0024-2-08:00",
+          "day": 2,
+          "start": "08:00",
+          "end": "09:30",
+          "title": "Betriebssysteme",
+          "uncertain": false
+        },
+        {
+          "id": "SI0024-2-11:00",
+          "day": 2,
+          "start": "11:00",
+          "end": "11:30",
+          "title": "Betriebssysteme",
+          "uncertain": false
+        },
+        {
+          "id": "SI0024-2-16:30",
+          "day": 2,
+          "start": "16:30",
+          "end": "18:00",
+          "title": "Parallele und verteilte Algorithmen",
+          "uncertain": false
+        },
+        {
+          "id": "SI0024-2-18:00",
+          "day": 2,
+          "start": "18:00",
+          "end": "19:30",
+          "title": "Parallele und verteilte Algorithmen · genaue Zeit unleserlich",
+          "uncertain": true
+        },
+        {
+          "id": "SI0024-3-10:00",
+          "day": 3,
+          "start": "10:00",
+          "end": "11:30",
+          "title": "Grundlagen der KI",
+          "uncertain": false
+        },
+        {
+          "id": "SI0024-3-16:30",
+          "day": 3,
+          "start": "16:30",
+          "end": "18:00",
+          "title": "OOAD",
+          "uncertain": false
+        },
+        {
+          "id": "SI0024-4-10:00",
+          "day": 4,
+          "start": "10:00",
+          "end": "11:30",
+          "title": "Betriebssysteme",
+          "uncertain": false
+        },
+        {
+          "id": "SI0024-4-12:15",
+          "day": 4,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "Systems Engineering",
+          "uncertain": false
+        },
+        {
+          "id": "SI0024-4-14:30",
+          "day": 4,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "Betriebssysteme",
+          "uncertain": false
+        },
+        {
+          "id": "SI0024-5-10:00",
+          "day": 5,
+          "start": "10:00",
+          "end": "11:30",
+          "title": "Grundlagen der KI",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "id": "SI0025",
+      "name": "PC-Pool",
+      "source": null,
+      "sourceFile": "1000122423.jpg",
+      "coverageEnd": "19:30",
+      "tentative": false,
+      "events": [
+        {
+          "id": "SI0025-1-12:15",
+          "day": 1,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "Digitale Assistenz",
+          "uncertain": false
+        },
+        {
+          "id": "SI0025-1-14:30",
+          "day": 1,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "Internet of Things / Industrie 4.0",
+          "uncertain": false
+        },
+        {
+          "id": "SI0025-1-16:30",
+          "day": 1,
+          "start": "16:30",
+          "end": "19:30",
+          "title": "Internet of Things / Industrie 4.0",
+          "uncertain": false
+        },
+        {
+          "id": "SI0025-2-11:00",
+          "day": 2,
+          "start": "11:00",
+          "end": "11:30",
+          "title": "Digitale Assistenz",
+          "uncertain": false
+        },
+        {
+          "id": "SI0025-3-10:00",
+          "day": 3,
+          "start": "10:00",
+          "end": "11:30",
+          "title": "Grundlagen der KI",
+          "uncertain": false
+        },
+        {
+          "id": "SI0025-3-12:15",
+          "day": 3,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "Embedded Systems",
+          "uncertain": false
+        },
+        {
+          "id": "SI0025-4-10:00",
+          "day": 4,
+          "start": "10:00",
+          "end": "11:30",
+          "title": "Verteilte Systeme",
+          "uncertain": false
+        },
+        {
+          "id": "SI0025-4-12:15",
+          "day": 4,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "Verteilte Systeme",
+          "uncertain": false
+        },
+        {
+          "id": "SI0025-5-12:15",
+          "day": 5,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "Embedded Systems",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "id": "SI0038",
+      "name": "Windows-Pool",
+      "source": null,
+      "sourceFile": "Screenshot_2026-09-30-09-42-14-66_40deb401b9ffe8e1df2f1cc5ba480b12.jpg",
+      "coverageEnd": "18:00",
+      "tentative": true,
+      "events": [
+        {
+          "id": "SI0038-1-16:30",
+          "day": 1,
+          "start": "16:30",
+          "end": "18:00",
+          "title": "Audio-u-Videotech_PR",
+          "uncertain": false
+        },
+        {
+          "id": "SI0038-2-10:00",
+          "day": 2,
+          "start": "10:00",
+          "end": "11:30",
+          "title": "MIS-PR",
+          "uncertain": false
+        },
+        {
+          "id": "SI0038-2-12:15",
+          "day": 2,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "MIS-PR",
+          "uncertain": false
+        },
+        {
+          "id": "SI0038-2-14:30",
+          "day": 2,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "Mod-Anim-3D_SV",
+          "uncertain": false
+        },
+        {
+          "id": "SI0038-2-16:30",
+          "day": 2,
+          "start": "16:30",
+          "end": "18:00",
+          "title": "Mod-Anim-3D_PR",
+          "uncertain": false
+        },
+        {
+          "id": "SI0038-3-08:00",
+          "day": 3,
+          "start": "08:00",
+          "end": "09:30",
+          "title": "GrdlProg_PR",
+          "uncertain": false
+        },
+        {
+          "id": "SI0038-3-10:00",
+          "day": 3,
+          "start": "10:00",
+          "end": "11:30",
+          "title": "GrdlProg_PR",
+          "uncertain": false
+        },
+        {
+          "id": "SI0038-3-12:15",
+          "day": 3,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "SP&3D-Animation_PR",
+          "uncertain": false
+        },
+        {
+          "id": "SI0038-3-14:30",
+          "day": 3,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "Computergrafik_PR",
+          "uncertain": false
+        },
+        {
+          "id": "SI0038-3-16:30",
+          "day": 3,
+          "start": "16:30",
+          "end": "18:00",
+          "title": "Audio-u-Videotech_PR",
+          "uncertain": false
+        },
+        {
+          "id": "SI0038-4-10:00",
+          "day": 4,
+          "start": "10:00",
+          "end": "11:30",
+          "title": "RMA_PR",
+          "uncertain": false
+        },
+        {
+          "id": "SI0038-4-12:15",
+          "day": 4,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "RMA_PR",
+          "uncertain": false
+        },
+        {
+          "id": "SI0038-4-14:30",
+          "day": 4,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "RMA_PR",
+          "uncertain": false
+        },
+        {
+          "id": "SI0038-4-16:30",
+          "day": 4,
+          "start": "16:30",
+          "end": "18:00",
+          "title": "Audio-u-Videotech_PR",
+          "uncertain": false
+        },
+        {
+          "id": "SI0038-5-12:15",
+          "day": 5,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "Computergrafik_PR",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "id": "SI0201",
+      "name": "IT-Pool 3",
+      "source": null,
+      "sourceFile": "1000122411.jpg",
+      "coverageEnd": "20:00",
+      "tentative": false,
+      "events": [
+        {
+          "id": "SI0201-1-10:00",
+          "day": 1,
+          "start": "10:00",
+          "end": "11:30",
+          "title": "Konstruktion",
+          "uncertain": false
+        },
+        {
+          "id": "SI0201-1-12:15",
+          "day": 1,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "Simulation anisotroper Leichtbauwerkstoffe",
+          "uncertain": false
+        },
+        {
+          "id": "SI0201-1-14:30",
+          "day": 1,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "Simulation anisotroper Leichtbauwerkstoffe",
+          "uncertain": false
+        },
+        {
+          "id": "SI0201-1-16:30",
+          "day": 1,
+          "start": "16:30",
+          "end": "18:00",
+          "title": "Konstruktion und CAD",
+          "uncertain": false
+        },
+        {
+          "id": "SI0201-2-12:15",
+          "day": 2,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "Programmierung 3 (MI) (Praktikum) · Gr. 2 · MI3",
+          "uncertain": false
+        },
+        {
+          "id": "SI0201-2-14:30",
+          "day": 2,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "Regelungstechnik für Maschinenbau (Praktikum)",
+          "uncertain": false
+        },
+        {
+          "id": "SI0201-2-16:30",
+          "day": 2,
+          "start": "16:30",
+          "end": "18:00",
+          "title": "Konstruktion",
+          "uncertain": false
+        },
+        {
+          "id": "SI0201-3-08:00",
+          "day": 3,
+          "start": "08:00",
+          "end": "09:30",
+          "title": "Systemzeit",
+          "uncertain": false
+        },
+        {
+          "id": "SI0201-3-12:15",
+          "day": 3,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "Modellierung und Simulation mechatronischer Systeme (Praktikum)",
+          "uncertain": false
+        },
+        {
+          "id": "SI0201-4-08:00",
+          "day": 4,
+          "start": "08:00",
+          "end": "09:30",
+          "title": "Regelungstechnik für Maschinenbau (Praktikum)",
+          "uncertain": false
+        },
+        {
+          "id": "SI0201-4-14:30",
+          "day": 4,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "CAE für Kunststofftechnik",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "id": "SI0202",
+      "name": "IT-Pool 2",
+      "source": null,
+      "sourceFile": "1000122412.jpg",
+      "coverageEnd": "20:00",
+      "tentative": false,
+      "events": [
+        {
+          "id": "SI0202-1-12:15",
+          "day": 1,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "Antriebe (Praktikum)",
+          "uncertain": false
+        },
+        {
+          "id": "SI0202-1-14:30",
+          "day": 1,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "Antriebe (Praktikum)",
+          "uncertain": false
+        },
+        {
+          "id": "SI0202-2-12:15",
+          "day": 2,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "Antriebe (Praktikum)",
+          "uncertain": false
+        },
+        {
+          "id": "SI0202-2-14:30",
+          "day": 2,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "Antriebe (Praktikum)",
+          "uncertain": false
+        },
+        {
+          "id": "SI0202-3-08:00",
+          "day": 3,
+          "start": "08:00",
+          "end": "09:30",
+          "title": "Systemzeit",
+          "uncertain": false
+        },
+        {
+          "id": "SI0202-3-12:15",
+          "day": 3,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "Regelungstechnik für Maschinenbau (Praktikum)",
+          "uncertain": false
+        },
+        {
+          "id": "SI0202-4-14:30",
+          "day": 4,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "Wissenschaftliche Arbeitstechniken",
+          "uncertain": false
+        },
+        {
+          "id": "SI0202-4-16:30",
+          "day": 4,
+          "start": "16:30",
+          "end": "18:00",
+          "title": "Wissenschaftliche Arbeitstechniken",
+          "uncertain": false
+        }
+      ]
+    },
+    {
+      "id": "SI0203",
+      "name": "IT-Pool 1",
+      "source": null,
+      "sourceFile": "1000122413.jpg",
+      "coverageEnd": "20:00",
+      "tentative": false,
+      "events": [
+        {
+          "id": "SI0203-2-12:15",
+          "day": 2,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "Datenbanken (Praktikum) · Gr. 3 · MI3",
+          "uncertain": false
+        },
+        {
+          "id": "SI0203-2-14:30",
+          "day": 2,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "Elektrotechnik / Messen-Steuern-Regeln für den Anlagenbau",
+          "uncertain": false
+        },
+        {
+          "id": "SI0203-3-08:00",
+          "day": 3,
+          "start": "08:00",
+          "end": "09:30",
+          "title": "Systemzeit",
+          "uncertain": false
+        },
+        {
+          "id": "SI0203-3-12:15",
+          "day": 3,
+          "start": "12:15",
+          "end": "13:45",
+          "title": "Fortgeschrittenes Datenmanagement · Big Data und Business Intelligence",
+          "uncertain": false
+        },
+        {
+          "id": "SI0203-3-14:30",
+          "day": 3,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "Fortgeschrittenes Datenmanagement · Big Data und Business Intelligence",
+          "uncertain": false
+        },
+        {
+          "id": "SI0203-4-14:30",
+          "day": 4,
+          "start": "14:30",
+          "end": "16:00",
+          "title": "Wissenschaftliche Arbeitstechniken",
+          "uncertain": false
+        },
+        {
+          "id": "SI0203-4-16:30",
+          "day": 4,
+          "start": "16:30",
+          "end": "18:00",
+          "title": "Wissenschaftliche Arbeitstechniken",
+          "uncertain": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),E=require('./dist/engine.js'),D=JSON.parse(fs.readFileSync('./dist/data.json'));
+assert.equal(D.rooms.length,10);assert.equal(new Set(D.rooms.map(r=>r.id)).size,10);assert.equal(D.rooms.reduce((n,r)=>n+r.events.length,0),110);
+for(const r of D.rooms){assert.equal(r.source,null);for(const e of r.events){assert(e.day>=1&&e.day<=5);assert(E.min(e.start)<E.min(e.end));assert.equal(r.events.filter(x=>x.id===e.id).length,1)}for(let day=1;day<=5;day++){const es=r.events.filter(e=>e.day===day);for(let i=1;i<es.length;i++)assert(E.min(es[i-1].end)<=E.min(es[i].start),r.id+' overlap')}}
+const r=id=>D.rooms.find(r=>r.id===id),s=(id,d,t)=>E.status(r(id),d,E.min(t));
+assert.equal(s('SI0003','2026-09-30','09:29').type,'busy');assert.equal(s('SI0003','2026-09-30','09:30').type,'free');assert.equal(s('SI0003','2026-09-30','09:47').end,E.min('14:30'));assert.equal(s('SI0003','2026-09-30','14:30').type,'busy');assert.equal(s('SI0003','2026-09-30','16:00').type,'free');
+assert.equal(s('SI0024','2026-09-29','10:30').type,'free');assert.equal(s('SI0024','2026-09-29','11:00').type,'busy');assert.equal(s('SI0025','2026-09-29','10:30').end,E.min('11:00'));assert.equal(s('SI0024','2026-09-29','18:15').type,'uncertain');
+assert.equal(s('SD0002','2026-09-29','18:15').type,'busy');assert.equal(s('SD0002','2026-09-29','19:30').type,'unknown');assert.equal(s('SI0038','2026-09-30','18:00').type,'unknown');assert.equal(s('SI0003','2026-10-03','10:00').type,'unknown');assert.equal(s('SI0003','2026-09-30','07:59').type,'unknown');assert.equal(s('SI0003','2026-09-30','20:00').type,'unknown');
+assert.equal(E.berlin(new Date('2026-09-29T22:05:00Z')).date,'2026-09-30');assert.equal(E.berlin(new Date('2026-10-25T02:05:00Z')).minute,185);assert.equal(E.weekday('2026-09-30'),3);
+assert.equal(D.rooms.filter(r=>E.status(r,'2026-09-30',587).type==='free').length,10);assert.equal(D.rooms.filter(r=>E.status(r,'2026-09-30',600).type==='free').length,5);
+console.log('Verified 10 rooms, 110 blocks, no overlaps, source files, boundary times, unknown ranges, Berlin timezone and DST.');
